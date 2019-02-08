@@ -1,0 +1,386 @@
+DEBUG 2019-02-08 08:37:15,391 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-02-08 08:37:15,440 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-02-08 08:37:15,456 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyEventCloud.Web.Host.Startup.MyEventCloudWebHostModule, MyEventCloud.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:37:15,458 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyEventCloud.MyEventCloudWebCoreModule, MyEventCloud.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:37:15,459 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyEventCloud.MyEventCloudApplicationModule, MyEventCloud.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:37:15,459 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyEventCloud.MyEventCloudCoreModule, MyEventCloud.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:37:15,459 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:37:15,459 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:37:15,460 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:37:15,460 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:37:15,461 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyEventCloud.EntityFrameworkCore.MyEventCloudEntityFrameworkModule, MyEventCloud.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:37:15,461 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:37:15,462 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:37:15,462 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:37:15,462 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:37:15,462 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:37:15,463 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:37:15,465 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-02-08 08:37:15,526 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-02-08 08:37:15,526 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-02-08 08:37:15,526 [1    ] o.Configuration.LanguageManagementConfig - Converted MyEventCloud (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-02-08 08:37:15,526 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-02-08 08:37:15,803 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyEventCloud.EntityFrameworkCore.MyEventCloudDbContext, MyEventCloud.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:37:16,164 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-02-08 08:37:16,372 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-02-08 08:37:16,675 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-02-08 08:37:16,823 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyEventCloud
+DEBUG 2019-02-08 08:37:17,017 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-02-08 08:37:17,046 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-02-08 08:37:17,090 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-02-08 08:37:17,090 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyEventCloud.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-02-08 08:37:17,097 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyEventCloud.Users.Dto.CreateUserDto
+DEBUG 2019-02-08 08:37:17,098 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyEventCloud.Users.Dto.UserDto
+DEBUG 2019-02-08 08:37:17,098 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyEventCloud.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-02-08 08:37:17,098 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyEventCloud.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-02-08 08:37:17,098 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyEventCloud.Roles.Dto.CreateRoleDto
+DEBUG 2019-02-08 08:37:17,098 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyEventCloud.Roles.Dto.PermissionDto
+DEBUG 2019-02-08 08:37:17,099 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyEventCloud.Roles.Dto.RoleDto
+DEBUG 2019-02-08 08:37:17,099 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyEventCloud.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-02-08 08:37:17,099 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyEventCloud.MultiTenancy.Dto.TenantDto
+INFO  2019-02-08 08:37:24,623 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-02-08 08:37:25,768 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action MyEventCloud.Web.Host.Controllers.HomeController.Index (MyEventCloud.Web.Host)
+INFO  2019-02-08 08:37:26,066 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyEventCloud.Web.Host.Controllers.HomeController.Index (MyEventCloud.Web.Host) - Validation state: Valid
+INFO  2019-02-08 08:37:26,071 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyEventCloud.Web.Host.Controllers.HomeController.Index (MyEventCloud.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1.6663ms.
+INFO  2019-02-08 08:37:26,565 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-02-08 08:37:26,578 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyEventCloud.Web.Host.Controllers.HomeController.Index (MyEventCloud.Web.Host) in 805.6354ms
+INFO  2019-02-08 08:37:26,646 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2031.7599ms 302 
+INFO  2019-02-08 08:37:26,647 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-02-08 08:37:26,687 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.0147ms 200 text/html
+INFO  2019-02-08 08:37:26,700 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-02-08 08:37:26,700 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-02-08 08:37:26,706 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-02-08 08:37:26,730 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-02-08 08:37:26,730 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-02-08 08:37:26,730 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-02-08 08:37:26,734 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.3664ms 304 application/javascript
+INFO  2019-02-08 08:37:26,734 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.6796ms 304 text/css
+INFO  2019-02-08 08:37:26,734 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.5839ms 304 application/javascript
+INFO  2019-02-08 08:37:27,006 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-02-08 08:37:27,251 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 245.0741ms 200 application/json;charset=utf-8
+INFO  2019-02-08 08:47:22,191 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll  
+INFO  2019-02-08 08:47:22,260 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing action MyEventCloud.Roles.RoleAppService.GetAll (MyEventCloud.Application)
+INFO  2019-02-08 08:47:22,409 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyEventCloud.Roles.RoleAppService.GetAll (MyEventCloud.Application) with arguments (MyEventCloud.Roles.Dto.PagedRoleResultRequestDto) - Validation state: Valid
+WARN  2019-02-08 08:47:22,966 [28   ] Mvc.ExceptionHandling.AbpExceptionFilter - Current user did not login to the application!
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 103
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationInterceptor.Intercept(IInvocation invocation) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationInterceptor.cs:line 20
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 78
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.RoleAppServiceProxy.GetAll(PagedRoleResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-02-08 08:47:22,994 [28   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-02-08 08:47:23,013 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyEventCloud.Roles.RoleAppService.GetAll (MyEventCloud.Application) in 752.9218ms
+INFO  2019-02-08 08:47:23,013 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 822.0235ms 401 application/json; charset=utf-8
+WARN  2019-02-08 09:33:24,174 [46   ] Abp.BackgroundJobs.BackgroundJobManager  - System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (258): Unknown error: 258
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnection.BeginSqlTransaction(IsolationLevel iso, String transactionName, Boolean shouldReconnect)
+   at System.Data.SqlClient.SqlConnection.BeginTransaction(IsolationLevel iso, String transactionName)
+   at System.Data.SqlClient.SqlConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionWithNoPreconditions(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 78
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+ClientConnectionId:388ccb10-5d34-4113-96e0-ecf378bf7603
+Error Number:-2,State:0,Class:11
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (258): Unknown error: 258
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnection.BeginSqlTransaction(IsolationLevel iso, String transactionName, Boolean shouldReconnect)
+   at System.Data.SqlClient.SqlConnection.BeginTransaction(IsolationLevel iso, String transactionName)
+   at System.Data.SqlClient.SqlConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionWithNoPreconditions(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 78
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+ClientConnectionId:388ccb10-5d34-4113-96e0-ecf378bf7603
+Error Number:-2,State:0,Class:11
+INFO  2019-02-08 09:38:00,912 [52   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-02-08 09:38:00,947 [52   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:38:00,968 [52   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 57.4927ms 204 
+INFO  2019-02-08 09:38:00,979 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2019-02-08 09:38:00,979 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:38:00,991 [48   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+WARN  2019-02-08 09:38:01,001 [48   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-02-08 09:38:01,001 [48   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-02-08 09:38:01,021 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2019-02-08 09:38:01,021 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:38:01,025 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2019-02-08 09:38:01,745 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 719.3131ms.
+INFO  2019-02-08 09:38:02,025 [50   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-02-08 09:38:02,083 [50   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 1062.3679ms
+INFO  2019-02-08 09:38:02,085 [50   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1106.667ms 200 application/json; charset=utf-8
+INFO  2019-02-08 09:38:02,094 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-02-08 09:38:02,094 [47   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:38:02,094 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2508ms 204 
+INFO  2019-02-08 09:38:02,096 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-02-08 09:38:02,096 [51   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:38:02,107 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action MyEventCloud.Sessions.SessionAppService.GetCurrentLoginInformations (MyEventCloud.Application)
+INFO  2019-02-08 09:38:02,107 [51   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:38:02,226 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyEventCloud.Sessions.SessionAppService.GetCurrentLoginInformations (MyEventCloud.Application) - Validation state: Valid
+INFO  2019-02-08 09:38:02,231 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyEventCloud.Sessions.SessionAppService.GetCurrentLoginInformations (MyEventCloud.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.4657ms.
+INFO  2019-02-08 09:38:02,233 [51   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-02-08 09:38:02,241 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyEventCloud.Sessions.SessionAppService.GetCurrentLoginInformations (MyEventCloud.Application) in 134.1761ms
+INFO  2019-02-08 09:38:02,241 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 145.0241ms 200 application/json; charset=utf-8
+INFO  2019-02-08 09:38:36,329 [50   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2019-02-08 09:38:36,330 [50   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:38:36,330 [50   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.6977ms 204 
+INFO  2019-02-08 09:38:36,340 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 77
+INFO  2019-02-08 09:38:36,340 [51   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:38:36,355 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action MyEventCloud.Controllers.TokenAuthController.Authenticate (MyEventCloud.Web.Core)
+INFO  2019-02-08 09:38:36,355 [51   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:38:36,632 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyEventCloud.Controllers.TokenAuthController.Authenticate (MyEventCloud.Web.Core) with arguments (MyEventCloud.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+WARN  2019-02-08 09:38:37,135 [48   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2019-02-08 09:38:38,879 [47   ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MyEventCloud.Controllers.TokenAuthController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in /Users/huzaifah/Documents/Users/Huzaifah Dzulkifli/Documents/Source Codes/myeventcloud/aspnet-core/src/MyEventCloud.Web.Core/Controllers/TokenAuthController.cs:line 192
+   at MyEventCloud.Controllers.TokenAuthController.Authenticate(AuthenticateModel model) in /Users/huzaifah/Documents/Users/Huzaifah Dzulkifli/Documents/Source Codes/myeventcloud/aspnet-core/src/MyEventCloud.Web.Core/Controllers/TokenAuthController.cs:line 55
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-02-08 09:38:38,880 [47   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-02-08 09:38:38,880 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyEventCloud.Controllers.TokenAuthController.Authenticate (MyEventCloud.Web.Core) in 2525.4564ms
+INFO  2019-02-08 09:38:38,881 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2541.5714ms 500 application/json; charset=utf-8
+INFO  2019-02-08 09:38:47,485 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2019-02-08 09:38:47,485 [47   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:38:47,485 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2462ms 204 
+INFO  2019-02-08 09:38:47,490 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 77
+INFO  2019-02-08 09:38:47,490 [47   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:38:47,498 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action MyEventCloud.Controllers.TokenAuthController.Authenticate (MyEventCloud.Web.Core)
+INFO  2019-02-08 09:38:47,498 [47   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:38:47,505 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyEventCloud.Controllers.TokenAuthController.Authenticate (MyEventCloud.Web.Core) with arguments (MyEventCloud.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+WARN  2019-02-08 09:38:47,658 [47   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2019-02-08 09:38:48,710 [46   ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MyEventCloud.Controllers.TokenAuthController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in /Users/huzaifah/Documents/Users/Huzaifah Dzulkifli/Documents/Source Codes/myeventcloud/aspnet-core/src/MyEventCloud.Web.Core/Controllers/TokenAuthController.cs:line 192
+   at MyEventCloud.Controllers.TokenAuthController.Authenticate(AuthenticateModel model) in /Users/huzaifah/Documents/Users/Huzaifah Dzulkifli/Documents/Source Codes/myeventcloud/aspnet-core/src/MyEventCloud.Web.Core/Controllers/TokenAuthController.cs:line 55
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-02-08 09:38:48,711 [46   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-02-08 09:38:48,711 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyEventCloud.Controllers.TokenAuthController.Authenticate (MyEventCloud.Web.Core) in 1213.5884ms
+INFO  2019-02-08 09:38:48,712 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1221.8461ms 500 application/json; charset=utf-8
+INFO  2019-02-08 09:38:59,314 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2019-02-08 09:38:59,314 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:38:59,315 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.7815ms 204 
+INFO  2019-02-08 09:38:59,320 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 77
+INFO  2019-02-08 09:38:59,320 [51   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:38:59,326 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action MyEventCloud.Controllers.TokenAuthController.Authenticate (MyEventCloud.Web.Core)
+INFO  2019-02-08 09:38:59,326 [51   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:38:59,331 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyEventCloud.Controllers.TokenAuthController.Authenticate (MyEventCloud.Web.Core) with arguments (MyEventCloud.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+INFO  2019-02-08 09:39:01,029 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyEventCloud.Controllers.TokenAuthController.Authenticate (MyEventCloud.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1698.332ms.
+INFO  2019-02-08 09:39:01,624 [48   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-02-08 09:39:01,627 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyEventCloud.Controllers.TokenAuthController.Authenticate (MyEventCloud.Web.Core) in 2300.9838ms
+INFO  2019-02-08 09:39:01,627 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2306.904ms 200 application/json; charset=utf-8
+INFO  2019-02-08 09:39:03,058 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-02-08 09:39:03,058 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:39:03,058 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3765ms 204 
+INFO  2019-02-08 09:39:03,068 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2019-02-08 09:39:03,069 [51   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:39:03,143 [51   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-02-08 09:39:03,829 [48   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-02-08 09:39:03,829 [48   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+WARN  2019-02-08 09:39:03,829 [48   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-02-08 09:39:03,829 [48   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+WARN  2019-02-08 09:39:03,992 [50   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-02-08 09:39:03,992 [50   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-02-08 09:39:04,016 [50   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2019-02-08 09:39:04,016 [50   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:39:04,018 [50   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2019-02-08 09:39:04,744 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 725.8705ms.
+INFO  2019-02-08 09:39:04,977 [46   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-02-08 09:39:04,978 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 961.525ms
+INFO  2019-02-08 09:39:04,978 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1909.3069ms 200 application/json; charset=utf-8
+INFO  2019-02-08 09:39:04,987 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-02-08 09:39:04,987 [46   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:39:04,987 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.176ms 204 
+INFO  2019-02-08 09:39:04,989 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-02-08 09:39:04,989 [46   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:39:04,990 [46   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-02-08 09:39:04,990 [46   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-02-08 09:39:04,990 [46   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+WARN  2019-02-08 09:39:04,991 [46   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-02-08 09:39:04,991 [46   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-02-08 09:39:04,994 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action MyEventCloud.Sessions.SessionAppService.GetCurrentLoginInformations (MyEventCloud.Application)
+INFO  2019-02-08 09:39:04,994 [46   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:39:04,997 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyEventCloud.Sessions.SessionAppService.GetCurrentLoginInformations (MyEventCloud.Application) - Validation state: Valid
+INFO  2019-02-08 09:39:05,139 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyEventCloud.Sessions.SessionAppService.GetCurrentLoginInformations (MyEventCloud.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 142.0208ms.
+INFO  2019-02-08 09:39:05,196 [51   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-02-08 09:39:05,199 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyEventCloud.Sessions.SessionAppService.GetCurrentLoginInformations (MyEventCloud.Application) in 205.3258ms
+INFO  2019-02-08 09:39:05,200 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 210.2955ms 200 application/json; charset=utf-8
+INFO  2019-02-08 09:39:06,055 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiZpnMIu3mRgyTCIbiC5h7b0NZmEFLihK%2F5yXe%2BWuEbpTC9sL6NDq78jtpdNgWVH9CoUXNuIVFbUPGvnEZXgfOWKDUnMv5Pi6R%2BxtlLfi8y7bchhCrhOX4klorkNh3sNGqumHOImqtQK2CTuY2aOV2ecktQA2t%2FSfiA9VBsqnzMGQq3dSJim8odJTFoYvnXlWkxMGaNQF6J8%2F17QPDYTODLgvuppo%2FevahX%2FYg%2BBVo9IZtqS4B%2Fol631JRz821ilpoS6wyVpqv9BX3XnjWi%2FG0XOgEq6TBVRYYz%2FKdHeVVuexAvf3Wnk85s4%2BqvjG1VlDSjnWWfRc%2FrP6%2Ba%2BqGMHHANexI8hhEw3w4F0u7c5qSTXtJFt%2B3sM6iZqwwz1JdkWp01urFdYKxN5RzLcMpzW1wOsJC%2BCyhhBn1PB0VOk5lIVcQz0XuET38KYNYiQulqDxVm4CrIkwSaCcuxuEr8vPSSAPzWfY%2FbHVVlgaUmJuCem5DsWm56mfnhF9nQNoY1VK8OCJve0JQMfoADZ7E7CAe76  
+INFO  2019-02-08 09:39:06,055 [51   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:39:06,055 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3337ms 204 
+INFO  2019-02-08 09:39:06,184 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiZpnMIu3mRgyTCIbiC5h7b0NZmEFLihK%2F5yXe%2BWuEbpTC9sL6NDq78jtpdNgWVH9CoUXNuIVFbUPGvnEZXgfOWKDUnMv5Pi6R%2BxtlLfi8y7bchhCrhOX4klorkNh3sNGqumHOImqtQK2CTuY2aOV2ecktQA2t%2FSfiA9VBsqnzMGQq3dSJim8odJTFoYvnXlWkxMGaNQF6J8%2F17QPDYTODLgvuppo%2FevahX%2FYg%2BBVo9IZtqS4B%2Fol631JRz821ilpoS6wyVpqv9BX3XnjWi%2FG0XOgEq6TBVRYYz%2FKdHeVVuexAvf3Wnk85s4%2BqvjG1VlDSjnWWfRc%2FrP6%2Ba%2BqGMHHANexI8hhEw3w4F0u7c5qSTXtJFt%2B3sM6iZqwwz1JdkWp01urFdYKxN5RzLcMpzW1wOsJC%2BCyhhBn1PB0VOk5lIVcQz0XuET38KYNYiQulqDxVm4CrIkwSaCcuxuEr8vPSSAPzWfY%2FbHVVlgaUmJuCem5DsWm56mfnhF9nQNoY1VK8OCJve0JQMfoADZ7E7CAe76 text/plain;charset=UTF-8 0
+INFO  2019-02-08 09:39:06,184 [51   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:39:06,195 [51   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-02-08 09:39:06,196 [51   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-02-08 09:39:06,196 [51   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+WARN  2019-02-08 09:39:06,201 [51   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-02-08 09:39:06,201 [51   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-02-08 09:39:06,253 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 68.8001ms 200 application/json
+INFO  2019-02-08 09:39:06,340 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiZpnMIu3mRgyTCIbiC5h7b0NZmEFLihK%2F5yXe%2BWuEbpTC9sL6NDq78jtpdNgWVH9CoUXNuIVFbUPGvnEZXgfOWKDUnMv5Pi6R%2BxtlLfi8y7bchhCrhOX4klorkNh3sNGqumHOImqtQK2CTuY2aOV2ecktQA2t%2FSfiA9VBsqnzMGQq3dSJim8odJTFoYvnXlWkxMGaNQF6J8%2F17QPDYTODLgvuppo%2FevahX%2FYg%2BBVo9IZtqS4B%2Fol631JRz821ilpoS6wyVpqv9BX3XnjWi%2FG0XOgEq6TBVRYYz%2FKdHeVVuexAvf3Wnk85s4%2BqvjG1VlDSjnWWfRc%2FrP6%2Ba%2BqGMHHANexI8hhEw3w4F0u7c5qSTXtJFt%2B3sM6iZqwwz1JdkWp01urFdYKxN5RzLcMpzW1wOsJC%2BCyhhBn1PB0VOk5lIVcQz0XuET38KYNYiQulqDxVm4CrIkwSaCcuxuEr8vPSSAPzWfY%2FbHVVlgaUmJuCem5DsWm56mfnhF9nQNoY1VK8OCJve0JQMfoADZ7E7CAe76&id=d7a9CLi6phNqEzLQ1O1FTw  
+INFO  2019-02-08 09:39:06,340 [46   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:39:06,343 [46   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-02-08 09:39:06,343 [46   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-02-08 09:39:06,343 [46   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+WARN  2019-02-08 09:39:06,344 [46   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-02-08 09:39:06,344 [46   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-02-08 09:39:06,572 [45   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-02-08 09:39:06,605 [45   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"d7a9CLi6phNqEzLQ1O1FTw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-02-08T09:39:06.602093+08:00","Properties":{}}
+DEBUG 2019-02-08 09:39:06,662 [45   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: d7a9CLi6phNqEzLQ1O1FTw
+INFO  2019-02-08 09:39:17,356 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Configuration/ChangeUiTheme  
+INFO  2019-02-08 09:39:17,356 [51   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:39:17,357 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4066ms 204 
+INFO  2019-02-08 09:39:17,366 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Configuration/ChangeUiTheme application/json 16
+INFO  2019-02-08 09:39:17,367 [51   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:39:17,367 [51   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-02-08 09:39:17,367 [51   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-02-08 09:39:17,367 [51   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+WARN  2019-02-08 09:39:17,368 [51   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-02-08 09:39:17,368 [51   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-02-08 09:39:17,380 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeUiTheme", controller = "Configuration"}. Executing action MyEventCloud.Configuration.ConfigurationAppService.ChangeUiTheme (MyEventCloud.Application)
+INFO  2019-02-08 09:39:17,380 [51   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:39:17,415 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyEventCloud.Configuration.ConfigurationAppService.ChangeUiTheme (MyEventCloud.Application) with arguments (MyEventCloud.Configuration.Dto.ChangeUiThemeInput) - Validation state: Valid
+INFO  2019-02-08 09:39:17,588 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyEventCloud.Configuration.ConfigurationAppService.ChangeUiTheme (MyEventCloud.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 172.6117ms.
+INFO  2019-02-08 09:39:17,835 [51   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-02-08 09:39:17,835 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyEventCloud.Configuration.ConfigurationAppService.ChangeUiTheme (MyEventCloud.Application) in 455.0949ms
+INFO  2019-02-08 09:39:17,835 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 468.6689ms 200 application/json; charset=utf-8
+INFO  2019-02-08 09:39:26,411 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Tenant/GetAll?SkipCount=0&MaxResultCount=10  
+INFO  2019-02-08 09:39:26,411 [46   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:39:26,411 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2151ms 204 
+INFO  2019-02-08 09:39:26,448 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Tenant/GetAll?SkipCount=0&MaxResultCount=10  
+INFO  2019-02-08 09:39:26,448 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:39:26,449 [48   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-02-08 09:39:26,671 [45   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-02-08 09:39:26,671 [45   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+WARN  2019-02-08 09:39:26,671 [45   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-02-08 09:39:26,671 [45   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-02-08 09:39:26,683 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Tenant"}. Executing action MyEventCloud.MultiTenancy.TenantAppService.GetAll (MyEventCloud.Application)
+INFO  2019-02-08 09:39:26,683 [45   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:39:26,805 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyEventCloud.MultiTenancy.TenantAppService.GetAll (MyEventCloud.Application) with arguments (MyEventCloud.MultiTenancy.Dto.PagedTenantResultRequestDto) - Validation state: Valid
+INFO  2019-02-08 09:39:27,320 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAll?SkipCount=0&MaxResultCount=10  
+INFO  2019-02-08 09:39:27,320 [51   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:39:27,320 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2266ms 204 
+INFO  2019-02-08 09:39:27,339 [50   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?SkipCount=0&MaxResultCount=10  
+INFO  2019-02-08 09:39:27,339 [50   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:39:27,340 [50   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-02-08 09:39:27,340 [50   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-02-08 09:39:27,340 [50   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+WARN  2019-02-08 09:39:27,340 [50   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2019-02-08 09:39:27,341 [50   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2019-02-08 09:39:27,346 [50   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing action MyEventCloud.Roles.RoleAppService.GetAll (MyEventCloud.Application)
+INFO  2019-02-08 09:39:27,346 [50   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-02-08 09:39:27,350 [50   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyEventCloud.Roles.RoleAppService.GetAll (MyEventCloud.Application) with arguments (MyEventCloud.Roles.Dto.PagedRoleResultRequestDto) - Validation state: Valid
+INFO  2019-02-08 09:39:27,408 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyEventCloud.MultiTenancy.TenantAppService.GetAll (MyEventCloud.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 603.0146ms.
+INFO  2019-02-08 09:39:27,634 [51   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-02-08 09:39:27,638 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyEventCloud.MultiTenancy.TenantAppService.GetAll (MyEventCloud.Application) in 954.8185ms
+INFO  2019-02-08 09:39:27,638 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1190.091ms 200 application/json; charset=utf-8
+INFO  2019-02-08 09:39:27,828 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyEventCloud.Roles.RoleAppService.GetAll (MyEventCloud.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 478.0531ms.
+INFO  2019-02-08 09:39:28,085 [50   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-02-08 09:39:28,089 [50   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyEventCloud.Roles.RoleAppService.GetAll (MyEventCloud.Application) in 743.4412ms
+INFO  2019-02-08 09:39:28,090 [50   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 750.625ms 200 application/json; charset=utf-8

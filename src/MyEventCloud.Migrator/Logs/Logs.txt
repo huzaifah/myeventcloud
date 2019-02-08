@@ -1,0 +1,25 @@
+﻿DEBUG 2019-02-08 08:33:25,559 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-02-08 08:33:25,606 [1    ] Abp.Modules.AbpModuleManager             - Found 9 ABP modules in total.
+DEBUG 2019-02-08 08:33:25,787 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyEventCloud.Migrator.MyEventCloudMigratorModule, MyEventCloud.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:33:25,790 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyEventCloud.EntityFrameworkCore.MyEventCloudEntityFrameworkModule, MyEventCloud.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:33:25,791 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyEventCloud.MyEventCloudCoreModule, MyEventCloud.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:33:25,791 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:33:25,791 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:33:25,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:33:25,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:33:25,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:33:25,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:33:25,796 [1    ] Abp.Modules.AbpModuleManager             - 9 modules loaded.
+DEBUG 2019-02-08 08:33:26,048 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyEventCloud.EntityFrameworkCore.MyEventCloudDbContext, MyEventCloud.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-08 08:33:26,442 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2019-02-08 08:33:26,691 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-02-08 08:33:26,984 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-02-08 08:33:27,128 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyEventCloud
+INFO  2019-02-08 08:33:27,335 [1    ] MyEventCloud.Migrator.Log                - Host database: server=tcp:huzaifah.database.windows.net,1433;initial catalog=MyEventCloudDb;persist security info=False;user id=*****;password=*****;multipleactiveresultsets=False;encrypt=True;trustservercertificate=False;connection timeout=30
+INFO  2019-02-08 08:33:27,335 [1    ] MyEventCloud.Migrator.Log                - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2019-02-08 08:33:33,400 [1    ] MyEventCloud.Migrator.Log                - HOST database migration started...
+INFO  2019-02-08 08:33:57,093 [1    ] MyEventCloud.Migrator.Log                - HOST database migration completed.
+INFO  2019-02-08 08:33:57,093 [1    ] MyEventCloud.Migrator.Log                - --------------------------------------------------------
+INFO  2019-02-08 08:33:57,299 [1    ] MyEventCloud.Migrator.Log                - All databases have been migrated.
+DEBUG 2019-02-08 08:34:00,589 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-02-08 08:34:00,590 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
