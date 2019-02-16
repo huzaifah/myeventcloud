@@ -22,4 +22,10 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="2.2.0" />
     <PackageReference Include="Castle.Windsor.MsDependencyInjection" Version="3.3.1" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Events\" />
+    <Folder Include="Domain\" />
+    <Folder Include="Domain\Events\" />
+    <Folder Include="Events\Notifications\" />
+  </ItemGroup>
 </Project>
