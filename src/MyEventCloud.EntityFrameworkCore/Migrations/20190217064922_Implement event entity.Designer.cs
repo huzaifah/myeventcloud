@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyEventCloud.EntityFrameworkCore;
 
 namespace MyEventCloud.Migrations
 {
     [DbContext(typeof(MyEventCloudDbContext))]
-    partial class MyEventCloudDbContextModelSnapshot : ModelSnapshot
+    [Migration("20190217064922_Implement event entity")]
+    partial class Implementevententity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
